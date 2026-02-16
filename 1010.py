@@ -1,0 +1,10 @@
+a, b, c = input().split()
+a = int(a)
+b = int(b)
+c = float(c)
+d, e, f = input().split()
+d = int(d)
+e = int(e)
+f = float(f)
+
+print(f"VALOR A PAGAR: R$ {b*c + e*f:.2f}")
